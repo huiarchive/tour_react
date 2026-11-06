@@ -1,3 +1,4 @@
+import "./App.css";
 import React, { useState, useEffect } from "react";
 import { 
   saveSelectedArea, 
@@ -5,7 +6,7 @@ import {
   toggleFavorite, 
   getFavorites 
 } from "./firebase";
-import "./App.css";
+
 
 // 공공데이터포털 Decoding(디코딩) 키
 const TOUR_API_KEY = import.meta.env.VITE_TOUR_API_KEY || "YOUR_PUBLIC_DATA_DECODING_KEY";
